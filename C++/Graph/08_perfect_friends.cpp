@@ -42,7 +42,7 @@ int main(){
         addEdge(graph, v1, v2);
     }
 
-    bool visited[V];
+    bool visited[V] = {false};
     for(int vtx = 0; vtx < V; vtx++){
         if(visited[vtx] == false){
             vector<int> comp;
