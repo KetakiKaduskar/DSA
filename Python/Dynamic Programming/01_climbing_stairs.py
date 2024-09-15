@@ -1,15 +1,15 @@
 def countPaths(n, dp):
     if n < 0 :
         return 0
-    if n ==0 or n ==1 :
+    if n == 0 or n ==1 :
         return 1
 
     if dp[n] > 0:
         return dp[n]
 
-    cp1 = countPaths (n - 1, dp)
-    cp2 = countPaths (n - 2, dp)
-    cp3 = countPaths (n - 3, dp)
+    cp1 = countPaths(n - 1, dp)
+    cp2 = countPaths(n - 2, dp)
+    cp3 = countPaths(n - 3, dp)
 
     return cp1+cp2+cp3
 

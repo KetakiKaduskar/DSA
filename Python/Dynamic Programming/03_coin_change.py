@@ -10,4 +10,4 @@ def coinChange(coins, amt):
 
 coins = list(map(int, input().split()))
 amt = int(input())
-print(coinChange (coins, amt))
+print(coinChange(coins, amt))
