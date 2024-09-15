@@ -21,9 +21,9 @@ def countPaths(n, dp):
 #         if i == 1:
 #             dp[i] = dp[i - 1]
 #         elif i == 2:
-#             dp[i] = dp[i-1] dp[i2]
+#             dp[i] = dp[i - 1] + dp[i - 2]
 #         else:
-#             dp[i] = dp[i - 1] dp[i-2] + dp[i - 3]
+#             dp[i] = dp[i - 1] + dp[i - 2] + dp[i - 3]
 
 #     return dp[n]
 

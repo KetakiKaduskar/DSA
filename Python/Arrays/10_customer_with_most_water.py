@@ -6,7 +6,7 @@ ans = 0
 
 while lIdx < rIdx:
 
-    height = min(heights [lIdx], heights [rIdx])
+    height = min(heights[lIdx], heights[rIdx])
     width = rIdx - lIdx
     water = height * width
     ans = max(ans, water)
