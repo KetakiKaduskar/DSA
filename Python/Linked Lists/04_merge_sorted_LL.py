@@ -22,7 +22,7 @@ def mergeSortedLL(head1, head2):
     res = []
 
     while one is not None and two is not None:
-        if one.data < two.data: 
+        if one.data< two.data: 
             res.append(one.data) 
             one = one.next
         else:
